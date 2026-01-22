@@ -2,6 +2,7 @@
 
 ## Project Overview
 This project contains automated test cases for the SauceDemo e-commerce website (https://www.saucedemo.com) using Selenium WebDriver, TestNG, Log4j, and Extent Reports.
+https://github.com/NurasylKh/SauceDemo-Test-Automation-Project.git
 
 ## Technologies Used
 - **Java 11**: Programming language
