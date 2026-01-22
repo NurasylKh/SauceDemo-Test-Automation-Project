@@ -1,0 +1,383 @@
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - === Starting Test Suite Execution ===
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - Initializing Extent Reports
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - Extent Reports initialized successfully
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - Created directory: test-output/screenshots
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testValidLogin
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:04:25 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:05:58 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:05:58 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Valid Login
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Initialize Login Page
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Enter valid username 'standard_user'
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Enter valid password 'secret_sauce'
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Click Login button
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify successful navigation to Products page
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.pages.ProductsPage - Products page loaded: true
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: User should be redirected to Products page
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Products page loaded = true
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: User successfully logged in
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testValidLogin
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testValidLogin
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testInvalidLogin
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:02 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:06:03 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:06:03 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Invalid Login
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Initialize Login Page
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Enter invalid username 'invalid_user'
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: invalid_user
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Enter invalid password 'wrong_password'
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Click Login button
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify error message is displayed
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.pages.LoginPage - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Error message should be displayed
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Error displayed = true
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Error Message: Epic sadface: Username and password do not match any user in this service
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Invalid login properly rejected with error message
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testInvalidLogin
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testInvalidLogin
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testLockedOutUser
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:05 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:06:06 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:06:06 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Locked Out User Login
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Initialize Login Page
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Enter locked out username 'locked_out_user'
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: locked_out_user
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Enter valid password 'secret_sauce'
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Click Login button
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify locked out error message is displayed
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.pages.LoginPage - Error message displayed: Epic sadface: Sorry, this user has been locked out.
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Locked out error message should be displayed
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Error displayed = true
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Error Message: Epic sadface: Sorry, this user has been locked out.
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Locked out user properly prevented from logging in
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testLockedOutUser
+2026-01-21 13:06:27 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testLockedOutUser
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testAddProductsToCart
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:28 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:06:29 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:06:29 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Add Products to Shopping Cart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Login with valid credentials
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.LoginPage - Performing login with username: standard_user
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Verify Products page is loaded
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.ProductsPage - Products page loaded: true
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Add Sauce Labs Backpack to cart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Backpack to cart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Add Sauce Labs Bike Light to cart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Bike Light to cart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify cart badge shows correct count
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.pages.ProductsPage - Cart badge count: 2
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Cart badge should show '2'
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Cart badge shows '2'
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Products successfully added to cart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testAddProductsToCart
+2026-01-21 13:06:31 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testAddProductsToCart
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testViewCartItems
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:06:32 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: View Cart Items
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Login with valid credentials
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.LoginPage - Performing login with username: standard_user
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Add products to cart
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Backpack to cart
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Bike Light to cart
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Navigate to shopping cart
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.ProductsPage - Clicking shopping cart
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Verify cart page is loaded
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.CartPage - Cart page loaded: true
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify cart contains 2 items
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.pages.CartPage - Number of items in cart: 2
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Cart should contain 2 items
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Cart contains 2 items
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Cart displays correct number of items
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testViewCartItems
+2026-01-21 13:06:34 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testViewCartItems
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testProductSorting
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:35 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:06:36 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:06:36 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Product Sorting
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Login with valid credentials
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.pages.LoginPage - Performing login with username: standard_user
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:06:37 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Verify Products page is loaded
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.pages.ProductsPage - Products page loaded: true
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Verify default product count
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.pages.ProductsPage - Number of products displayed: 6
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Should display 6 products
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Displaying 6 products
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Sort products by Price (low to high)
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.pages.ProductsPage - Sorting products by: Price (low to high)
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify products are still displayed after sorting
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.pages.ProductsPage - Number of products displayed: 6
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Should still display 6 products after sorting
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Displaying 6 products
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Product sorting works correctly
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testProductSorting
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testProductSorting
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - === Test Suite Execution Completed ===
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - Extent Report generated successfully
+2026-01-21 13:06:38 [main] INFO  com.saucedemo.base.BaseTest - All tests completed
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - === Starting Test Suite Execution ===
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - Initializing Extent Reports
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - Extent Reports initialized successfully
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testValidLogin
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:23 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:10:24 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:10:24 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Valid Login
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Initialize Login Page
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Enter valid username 'standard_user'
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Enter valid password 'secret_sauce'
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Click Login button
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify successful navigation to Products page
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.pages.ProductsPage - Products page loaded: true
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: User should be redirected to Products page
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Products page loaded = true
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: User successfully logged in
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testValidLogin
+2026-01-21 13:10:26 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testValidLogin
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testInvalidLogin
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:27 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:10:28 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:10:28 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Invalid Login
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Initialize Login Page
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Enter invalid username 'invalid_user'
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: invalid_user
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Enter invalid password 'wrong_password'
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Click Login button
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify error message is displayed
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.pages.LoginPage - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Error message should be displayed
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Error displayed = true
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Error Message: Epic sadface: Username and password do not match any user in this service
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Invalid login properly rejected with error message
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testInvalidLogin
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testInvalidLogin
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testLockedOutUser
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:29 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:10:30 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:10:30 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Locked Out User Login
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Initialize Login Page
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Enter locked out username 'locked_out_user'
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: locked_out_user
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Enter valid password 'secret_sauce'
+2026-01-21 13:10:31 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Click Login button
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify locked out error message is displayed
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.pages.LoginPage - Error message displayed: Epic sadface: Sorry, this user has been locked out.
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Locked out error message should be displayed
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Error displayed = true
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Error Message: Epic sadface: Sorry, this user has been locked out.
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Locked out user properly prevented from logging in
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testLockedOutUser
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testLockedOutUser
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testAddProductsToCart
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:32 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:10:33 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:10:33 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Add Products to Shopping Cart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Login with valid credentials
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.LoginPage - Performing login with username: standard_user
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Verify Products page is loaded
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.ProductsPage - Products page loaded: true
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Add Sauce Labs Backpack to cart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Backpack to cart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Add Sauce Labs Bike Light to cart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Bike Light to cart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify cart badge shows correct count
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.pages.ProductsPage - Cart badge count: 2
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Cart badge should show '2'
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Cart badge shows '2'
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Products successfully added to cart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testAddProductsToCart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testAddProductsToCart
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testViewCartItems
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:34 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:10:35 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:10:35 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:10:36 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:10:36 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: View Cart Items
+2026-01-21 13:10:36 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Login with valid credentials
+2026-01-21 13:10:36 [main] INFO  com.saucedemo.pages.LoginPage - Performing login with username: standard_user
+2026-01-21 13:10:36 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Add products to cart
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Backpack to cart
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.ProductsPage - Adding Sauce Labs Bike Light to cart
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Navigate to shopping cart
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.ProductsPage - Clicking shopping cart
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Verify cart page is loaded
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.CartPage - Cart page loaded: true
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify cart contains 2 items
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.pages.CartPage - Number of items in cart: 2
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Cart should contain 2 items
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Cart contains 2 items
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Cart displays correct number of items
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testViewCartItems
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testViewCartItems
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Starting Test: testProductSorting
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:37 [main] INFO  com.saucedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:10:38 [main] INFO  com.saucedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:10:38 [main] INFO  com.saucedemo.base.BaseTest - Navigating to SauceDemo: https://www.saucedemo.com
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Case: Product Sorting
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 1: Login with valid credentials
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.LoginPage - Performing login with username: standard_user
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 2: Verify Products page is loaded
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.ProductsPage - Products page loaded: true
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 3: Verify default product count
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.ProductsPage - Number of products displayed: 6
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Should display 6 products
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Displaying 6 products
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 4: Sort products by Price (low to high)
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.ProductsPage - Sorting products by: Price (low to high)
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Step 5: Verify products are still displayed after sorting
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.pages.ProductsPage - Number of products displayed: 6
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Expected Result: Should still display 6 products after sorting
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Actual Result: Displaying 6 products
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - STEP: Test Passed: Product sorting works correctly
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Test PASSED: testProductSorting
+2026-01-21 13:10:39 [main] INFO  com.saucedemo.base.BaseTest - Closing browser
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - Test Completed: testProductSorting
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - ========================================
+
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - === Test Suite Execution Completed ===
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - Extent Report generated successfully
+2026-01-21 13:10:40 [main] INFO  com.saucedemo.base.BaseTest - All tests completed

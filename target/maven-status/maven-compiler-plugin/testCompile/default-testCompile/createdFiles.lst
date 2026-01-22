@@ -1,0 +1,6 @@
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\tests\ShoppingCartTests.class
+com\saucedemo\pages\ProductsPage.class
+com\saucedemo\pages\CartPage.class
+com\saucedemo\base\BaseTest.class
+com\saucedemo\tests\LoginTests.class
